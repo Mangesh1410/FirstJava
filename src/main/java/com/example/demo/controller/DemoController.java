@@ -5,11 +5,24 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DemoController {
-	
-	@RequestMapping(path="/welcome")
+
+	@RequestMapping(path = "/welcome")
 	public String getMessage() {
 
-		
-	return "Welcome  To Java.";
-}
+		return "Welcome  To Java.";
 	}
+
+	@RequestMapping(path = "/mobinext")
+	public String getWelcomeToMN() {
+
+		return "<h2>Welcome  To MobiNext Tech.</h2>";
+	}
+	
+	
+
+	@RequestMapping(path = "/happy")
+	public String getKeepSmiling() {
+
+		return "<h2>Welcome  To MobiNext Tech. Stay Happy.</h2>";
+	}
+}
