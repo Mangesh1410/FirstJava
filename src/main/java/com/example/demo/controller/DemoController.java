@@ -17,6 +17,7 @@ public class DemoController {
 
 		return "<h2>Welcome  To MobiNext Tech.</h2>";
 	}
+<<<<<<< HEAD
 	
 	
 
@@ -25,4 +26,6 @@ public class DemoController {
 
 		return "<h2>Welcome  To MobiNext Tech. Stay Happy.</h2>";
 	}
+=======
+>>>>>>> master
 }
